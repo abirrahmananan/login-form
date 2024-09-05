@@ -3,50 +3,86 @@
     padding: 0%;
 }
 
-.parent{
+.parent form{
+   
     position: relative;
+    background-image: url(AbirAnan.jpg);
+    background-repeat: no-repeat ;
+    background-position: center;
+    background-size: cover;
+    border: 2px solid rgb(15, 0, 0);
+    height: 710px;
+    width: 470px;
+    top: 33px;
+    left: 260px;
+    border-radius: 50px 0px 50px 0px;
+    box-shadow: 10px 10px 5px hsl(0, 100%, 1%);
+   
 }
+
+
 .child {
     
     position: relative;
-    top: 100px;
+    top: 50px;
     width: 40%;
     height: 100px;
     color: rgb(5, 0, 0);
     padding-left: 65px;
     margin: -20px;
+    margin-top: 15px;
 
 }
 
 .con0{
     text-transform: uppercase;
+    color:#F4CE14 ;
+    font-size: 18px;
+    text-decoration: underline  #93032e;
+
+    
 }
+.con0 h1:hover{
+color: #93032e;
+}
+
+
 .con1 input {
     font-size: 30px;
     border-style: inset;
     box-sizing: border-box;
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color:#45474B;
     border-radius: 50px 0% 50px 0px ;
     text-align: center;
+    box-shadow: 10px 10px 5px hsl(0, 100%, 1%);
     
 
 }
 
 .con1 label {
     font-size: 30px;
+    color: #F4CE14 ;
+    
+
 }
+
 
 .con2 input {
     font-size: 30px;
     border-style: inset;
     box-sizing: border-box;
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: #45474B;
     border-radius: 50px 0% 50px 0px ;
     text-align: center;
+    box-shadow: 10px 10px 5px hsl(0, 100%, 1%);
 }
 
 .con2 label {
     font-size: 30px;
+    color:#F4CE14 ;
+    
+    
+    
     
 }
 button{
@@ -54,24 +90,20 @@ button{
     width: 360px;
     border-radius: 50px 0px 50px 0px;
     text-transform: uppercase;
+    background-color: #F4CE14 ;
+    color: rgb(15, 1, 1);
+    box-shadow: 10px 10px 5px hsl(0, 100%, 1%);
+   
+}
+button:hover{
+    background-color: #93032e;
+    color: white;
 }
 ::placeholder{
-    color: aqua;
+    color: rgb(255, 255, 255);
 }
-.parent form{
-    /* background-image: url(abir.jpg); */
-    background-repeat: no-repeat ;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    border: 2px solid rgb(15, 0, 0);
-    height: 650px;
-    width: 470px;
-    top: 33px;
-    left: 260px;
-    border-radius: 50px 0px 50px 0px;
+
     
-}
 a{
 
 position: relative;
@@ -80,10 +112,14 @@ top: 15px;
 
     
 }
+a:hover{
+    color: hsl(0, 0%, 100%);
+}
 p{
     position: relative;
     top: 7px;
     left: 100px;
+    color: #CDE8E5;
 }
 
 
@@ -97,9 +133,20 @@ p{
  padding: 15px;
  border-radius: 50%;
  margin: 5px;
+ box-shadow: 10px 10px 5px hsl(0, 100%, 1%);
+}
+i:hover{
+    background-color: #93032e;
+}
+.con3 label{
+    color: rgb(229, 255, 0);
 
-  
-  
-   
+}
+.child label:hover{
+    color: #93032e;
 }
 
+.con4 label{
+    color: rgb(229, 255, 0);
+
+}
